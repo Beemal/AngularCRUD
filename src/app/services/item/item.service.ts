@@ -3,7 +3,7 @@ import {Item} from '../../interfaces/item';
 import {Http, Headers} from '@angular/http';
 
 import 'rxjs/add/operator/map';
-
+ // Cors module needed in Server side, api has to be running
 @Injectable()
 export class ItemService{
     constructor(private _http: Http){}

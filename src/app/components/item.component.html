@@ -4,8 +4,8 @@
     </div>
 </form>
 
-    <!-- <div>
-        <div *ngFor="let item for items">
+    <div>
+        <div *ngFor="let item of items">
             <div class="col-md-1">
                 <input type="checkbox" class="form-control" name="title" [checked]="item.isDone" (click)="updateItem(item)">
             </div>
@@ -16,4 +16,4 @@
                 <input type="button" class="btn btn-danger" value="Delete" (click)="deleteItem(item._id)">
             </div>
         </div>
-    </div> -->
+    </div>
